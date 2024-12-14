@@ -1,0 +1,13 @@
+#FastAPI
+fastapi==0.115.4
+pydantic==2.9.2
+uvicorn==0.32.0
+load-dotenv==0.1.0
+aiohttp==3.10.10
+
+#PDF
+python-multipart==0.0.17
+pypdf==5.1.0
+
+#LLM
+litellm==1.52.5

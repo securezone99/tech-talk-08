@@ -1,0 +1,16 @@
+backend/x_venv
+backend/.env
+
+frontend/node_modules
+frontend/dist
+frontend/.next/
+frontend/out
+frontend/build
+frontend/.env*
+frontend/.vercel
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+.vscode
+.idea
+
