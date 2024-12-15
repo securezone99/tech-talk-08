@@ -9,9 +9,9 @@ sudo apt-get install python3.13-dev
 
 python3.13 -m venv x_venv
 source x_venv/bin/activate
-cp .envExample .env
+cp .envExample .env # add your LITELLM_KEY (openai api key)
 pip install -r requirements.txt
 cd app
-python -B -m uvicorn main:app --reload --log-level info
+python -B -m uvicorn app/main:app --reload --log-level info
 ```
 
