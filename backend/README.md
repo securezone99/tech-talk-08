@@ -12,6 +12,6 @@ source x_venv/bin/activate
 cp .envExample .env # add your LITELLM_KEY (openai api key)
 pip install -r requirements.txt
 cd app
-python -B -m uvicorn app/main:app --reload --log-level info
+python -B -m uvicorn main:app --reload --log-level info
 ```
 
